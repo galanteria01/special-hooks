@@ -27,3 +27,9 @@ const emails = useRandomEmails(count);
 ```
 const colors = useRandomColors(count);
 ```
+
+**useCounter** - This provides a counter object to be used in a component.
+
+```
+const {count, increment, decrement} = useCount(initialCount);
+```
