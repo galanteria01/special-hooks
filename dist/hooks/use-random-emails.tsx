@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function useRandomEmails(count: number) {
+export default function useRandomEmails(count: number = 5) {
   if (typeof count !== 'number') {
     throw new Error('count must be a number');
   }

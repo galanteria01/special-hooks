@@ -9,7 +9,7 @@ function generateColor() {
   return color;
 }
 
-export default function useRandomColors(count: number) {
+export default function useRandomColors(count: number = 5) {
   if (typeof count !== 'number') {
     throw new Error('Count must be a number');
   }

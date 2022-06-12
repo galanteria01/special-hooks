@@ -15,3 +15,15 @@ const [cardType, setCardType] = useCardType(cardNumber);
 ```
 const isValid = useValidateEmail(email);
 ```
+
+**useRandomEmails** - This hook generates random emails.
+
+```
+const emails = useRandomEmails(count);
+```
+
+**useRandomColors** - This hook is made to generate random colors.
+
+```
+const colors = useRandomColors(count);
+```
