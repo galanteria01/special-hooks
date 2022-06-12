@@ -1,7 +1,15 @@
 {
   "name": "special-hooks",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "keywords": [
+    "hooks",
+    "special",
+    "special-hooks",
+    "react",
+    "typescript"
+  ],
+  "description": "A library for creating special hooks",
+  "license": "Apache",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
