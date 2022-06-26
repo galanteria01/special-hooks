@@ -7,7 +7,7 @@ This project was made to provide some easy and special hooks for hassle-free dev
 **useCardType** - This hook is used to get the card type of a card.
 
 ```
-const [cardType, setCardType] = useCardType(cardNumber);
+const [cardType, errors] = useCardType(cardNumber);
 ```
 
 **useValidateEmail** - This hook is used to get the card type of a card.
@@ -33,3 +33,19 @@ const colors = useRandomColors(count);
 ```
 const {count, increment, decrement} = useCount(initialCount);
 ```
+
+**useDateTime** - It provides current date and time in a array.
+
+```
+const [date, time] = useDateTime();
+```
+
+**useCopyToClipboard** - It returns the copied boolean state and handleCopy method to save text to clipboard
+
+```
+const [copied, handleCopy] = useCopyToClipboard();
+```
+
+## Contribution Guide
+
+Feel free to contribute to the codebase.

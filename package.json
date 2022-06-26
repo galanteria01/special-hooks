@@ -1,6 +1,6 @@
 {
   "name": "special-hooks",
-  "version": "0.4.5",
+  "version": "0.4.7",
   "keywords": [
     "hooks",
     "special",
@@ -19,7 +19,9 @@
     "url": "https://github.com/galanteria01/special-hooks.git"
   },
   "license": "Apache",
-  "dependencies": {},
+  "dependencies": {
+    "copy-to-clipboard": "^3.3.1"
+  },
   "peerDependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
