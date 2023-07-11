@@ -46,6 +46,18 @@ const [date, time] = useDateTime();
 const [copied, handleCopy] = useCopyToClipboard();
 ```
 
+**useHorizontalOverflow** - It returns the boolean for the overflow condition in a container taking ref as input.
+
+```
+const [copied, handleCopy] = useHorizontalOverfow(ref, callback?);
+```
+
+**useVerticalOverflow** - It returns the boolean for the overflow condition in a container taking ref as input.
+
+```
+const [copied, handleCopy] = useVerticalOverflow(ref, callback?);
+```
+
 ## Contribution Guide
 
 Feel free to contribute to the codebase.
