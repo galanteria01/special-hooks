@@ -58,6 +58,24 @@ const [copied, handleCopy] = useHorizontalOverfow(ref, callback?);
 const [copied, handleCopy] = useVerticalOverflow(ref, callback?);
 ```
 
+**useTheme** - It returns the theme and its toggle function to handle dark and light mode.
+
+```
+const {theme, toggleTheme} = useTheme();
+```
+
+**useDebounce** - It returns the debounced value after a certain delay period.
+
+```
+const debouncedValue = useDebounce(value, delay);
+```
+
+**useFetch** - It returns the loading, data and error for the url through a http request.
+
+```
+const {loading, data, error} = useFetch(url);
+```
+
 ## Contribution Guide
 
 Feel free to contribute to the codebase.
